@@ -127,6 +127,25 @@ Hierarchy
 
 ---
 
+## 최신 코드 받기 (Pull)
+
+팀원이 코드를 업데이트했을 때, 내 PC에 최신 버전을 받는 방법입니다.
+
+### 터미널에서
+```bash
+cd Capstone
+git pull origin main
+```
+
+### GitHub Desktop 사용 시
+1. GitHub Desktop 열기
+2. 상단 **Fetch origin** 클릭
+3. 변경사항이 있으면 **Pull origin** 클릭
+
+> 본인이 수정한 파일과 충돌이 발생하면 팀원과 상의 후 해결하세요.
+
+---
+
 ## 트러블슈팅
 
 | 증상 | 원인 | 해결 |
@@ -148,4 +167,3 @@ Hierarchy
 | 팀원 | 배건우 | Unity / Python |
 | 팀원 | 이서우 | |
 
-지도교수: 김선용 교수님 | 산업체 멘토: 한화 비전 연구원 김나연
