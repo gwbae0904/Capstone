@@ -28,8 +28,8 @@ EMG 신호 (Arduino) → Raspberry Pi → 서보모터 (포스 피드백)
 
 ### 1. 저장소 클론
 ```bash
-git clone https://github.com/[팀저장소주소].git
-cd [프로젝트폴더]
+git clone https://github.com/gwbae0904/Capstone.git
+cd Capstone
 ```
 
 ### 2. Python 설치
