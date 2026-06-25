@@ -42,28 +42,9 @@ cd [프로젝트폴더]
 pip install mediapipe opencv-python
 ```
 
-### 4. MediaPipe 모델 파일 다운로드
+### 4. MediaPipe 모델 파일
 `hand_landmarker.task` 파일은 용량 문제로 저장소에 포함되지 않습니다.
-프로젝트 루트 폴더에 직접 다운로드하세요.
-
-```bash
-# 방법 1: 브라우저에서 직접 다운로드
-# 아래 URL을 브라우저 주소창에 붙여넣기
-https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task
-```
-
-```bash
-# 방법 2: Python으로 자동 다운로드 (첫 실행 시 자동)
-python hand_tracker.py  # 첫 실행 시 자동으로 다운로드됨
-```
-
-다운로드 후 파일 위치:
-```
-VR/                        ← Unity 프로젝트 루트
-├── Assets/
-├── hand_tracker.py        ✅ (저장소에 포함)
-└── hand_landmarker.task   ← 여기에 위치해야 함 (직접 다운로드)
-```
+`hand_tracker.py` 첫 실행 시 자동으로 다운로드됩니다.
 
 ### 5. Unity 열기
 - Unity Hub → Open → 클론한 폴더 선택
